@@ -1,0 +1,125 @@
+* {
+    color: rgb(38, 38, 38);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+div.left-navbar {
+    background-color: rgb(225, 225, 225);
+    width: 15%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+div.stories-navbar {
+    background-color: rgb(250, 250, 250);
+    height: 15%;
+    width: 100%;
+}
+
+div.posts {
+    background-color: pink;
+    height: 85%;
+    width: 100%;
+}
+
+div.right-navbar {
+    background-color: azure;
+    max-width: 15%;
+    width: 15%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+ul.left-navbar {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.left-navbar {
+    display: block;
+    padding: 16px 0px 16px 16px;
+    text-decoration: none;
+    color: black;
+    font-size: 16;
+}
+
+svg._ab6- {
+    padding-right: 8%;
+}
+
+img.story {
+    border-radius: 50%;
+    width: 5%;
+    height: 5%;
+    padding: 4px;
+    border: 4px solid gray;
+    
+}
+
+/*OLD*/
+
+td > a > img {
+    width: 150%;
+    height: auto;
+}
+
+body {
+    background-color: white;
+}
+
+img {
+    height: auto;
+}
+
+a > img:hover {
+   filter:opacity(75%);
+}
+
+td {
+  border: 40px solid transparent;
+}
+
+p > a {
+    text-decoration: none;
+    color: #7cc0cb;
+}
+
+p > a:hover {
+    background-color: #dddddd;
+}
+
+a:link {
+    text-decoration: none;
+    color: #7cc0cb;
+}
+
+a:hover {
+  /*background-color: #dddddd;*/
+  color: #222;
+}
+
+/* img {
+   width: 100%;
+   height: auto;
+   margin-bottom:30px;
+   filter: none;
+} */
+
+/* li.navbar a:hover {
+  color: #7cc0cb;
+}
+
+li.sub-navbar a:hover {
+  background-color: #dddddd;
+  color: #222;
+}  */
